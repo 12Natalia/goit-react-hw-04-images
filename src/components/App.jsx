@@ -82,7 +82,7 @@ export const App = () => {
         onChange={handleChange}
         inputValue={inputValue}
       />
-      <div>
+      <div className="App">
         {error && (
           <p className="alert">Whoops, something went wrong: {error.message}</p>
         )}
